@@ -1,10 +1,10 @@
 # docker-cassandra
 
-# Install Cassandra as a docker container in Atomic OS.
+ Install Cassandra as a docker container in Atomic OS.
 
 # How to use Cassandra image
 
- # Starting a Cassandra instance using below command:
+  Starting a Cassandra instance using below command:
 
 $ docker run --rm -v cassandra_data:/var/lib/cassandra -p 9042:9042 --name crew-cassandra -d cassandra:latest
 
